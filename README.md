@@ -64,9 +64,6 @@ This repository contains a Python script that utilizes the fine-tuned Whisper mo
 - Ensure the audio file is correctly preprocessed (resampled to 16 kHz) for accurate transcription.
 - The TorchScript model may have limitations due to unsupported operations in the original model.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
