@@ -1,0 +1,1 @@
+# -Quran-SpeechToText-using-Whisper-ai-
