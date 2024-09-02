@@ -1,0 +1,7 @@
+Flask==2.2.5
+torch==2.0.1
+transformers==4.31.0
+numpy==1.25.2
+pyaudio==0.2.13
+librosa==0.10.0
+onnx==1.14.0
