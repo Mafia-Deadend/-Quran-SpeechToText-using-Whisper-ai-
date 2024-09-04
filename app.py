@@ -7,7 +7,7 @@ import requests
 backend_url = "http://127.0.0.1:5000/transcribe"
 
 # API key (use the same key you set in the Flask .env file)
-api_key = "88c6d7f869fb35379570a7f26759adad8d9cca8dc48bcecfdd6d0381e40e1c6c"
+api_key = "Add api key here"
 
 # Parameters
 duration = 20  # Duration of recording in seconds
