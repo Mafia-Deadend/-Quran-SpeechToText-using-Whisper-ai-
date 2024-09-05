@@ -5,6 +5,7 @@ import onnx
 import pyaudio
 import numpy as np
 from transformers import WhisperProcessor, WhisperForConditionalGeneration
+import pyautogui as pg 
 
 # Load the model and processor (ensure local_files_only=True for offline usage)
 processor = WhisperProcessor.from_pretrained("tarteel-ai/whisper-tiny-ar-quran", local_files_only=True)
@@ -39,6 +40,8 @@ def process_audio_data(audio_data):
     # Decode the transcription
     transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)
     print("Transcription:", transcription)
+    pg.typewrite(transcription)
+
 
 # Callback function to read microphone input
 def callback(in_data, frame_count, time_info, status):
